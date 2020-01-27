@@ -35,7 +35,7 @@ header {
 	margin-bottom: 20px; 
 }
 
-.biot {
+.bio {
 	grid-column-start: 1;
 	grid-column-end: 2;
 	grid-row-start: 1;
@@ -48,14 +48,19 @@ header {
 
 .photo {
 	display: grid; 
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr;
+	grid-template-columns: 400px, 1fr;
+	grid-template-rows: 450px;
 }
 
 .my_photo {
-	width: 600px; 
+	width: 450px; 
 	grid-column-start: 1;
 	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	place-self: center;
+	
+	
 }
 
 /* ---------------------------------------------------- */
@@ -64,15 +69,20 @@ header {
 
 .customers {
 	display: grid; 
-	grid-template-columns: 200px 200px 200px;
-	grid-template-rows: 200px 200px 200px;
-	grid-gap: 50px;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-template-columns: 150px 150px 150px;
+	grid-template-rows: 150px 150px 150px;
+	grid-gap: 20px;
 }
 
 .customers img {
-	width: 200px;
+	width: 100px;
 	filter: gray;
     filter: grayscale(100%);
+	place-self: center;
 }
 
 
