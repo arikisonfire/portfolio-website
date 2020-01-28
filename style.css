@@ -43,39 +43,34 @@ header {
 }
 
 /* ---------------------------------------------------- */
-/* Portrait */
+/* Portfolio */
 /* ---------------------------------------------------- */
 
-.photo {
+.portfolio {
 	display: grid; 
-	grid-template-columns: 400px, 1fr;
-	grid-template-rows: 450px;
+	grid-template-columns: 1fr, 100px, 1fr;
+	grid-template-rows: 1fr;
+	
 }
 
 .my_photo {
-	width: 450px; 
+	width: 500px; 
 	grid-column-start: 1;
 	grid-column-end: 2;
 	grid-row-start: 1;
 	grid-row-end: 2;
 	place-self: center;
-	
-	
 }
-
-/* ---------------------------------------------------- */
-/* Customers */
-/* ---------------------------------------------------- */
 
 .customers {
 	display: grid; 
-	grid-column-start: 2;
-	grid-column-end: 3;
+	grid-column-start: 3;
+	grid-column-end: 4;
 	grid-row-start: 1;
 	grid-row-end: 2;
 	grid-template-columns: 150px 150px 150px;
 	grid-template-rows: 150px 150px 150px;
-	grid-gap: 20px;
+	grid-gap: 15px;
 }
 
 .customers img {
@@ -84,6 +79,27 @@ header {
     filter: grayscale(100%);
 	place-self: center;
 }
+
+/* ---------------------------------------------------- */
+/* Call-To-Action */
+/* ---------------------------------------------------- */
+
+.call_to_action {
+	display: grid;
+	grid-template-columns: 100px, 100px, 100px;
+	grid-template-rows: 1fr;
+}
+
+.cta_copy {
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.cta_calendly {
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
 
 
 
