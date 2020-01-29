@@ -33,6 +33,7 @@ header {
 	margin-top: 50px;
 	margin-left: 50px;
 	margin-bottom: 20px; 
+	margin-right: 50px;
 }
 
 .bio {
@@ -48,6 +49,8 @@ header {
 
 .portfolio {
 	display: grid; 
+	margin-left: 50px;
+	margin-right: 50px;
 	grid-template-columns: 1fr, 100px, 1fr;
 	grid-template-rows: 1fr;
 	
@@ -59,7 +62,6 @@ header {
 	grid-column-end: 2;
 	grid-row-start: 1;
 	grid-row-end: 2;
-	place-self: center;
 }
 
 .customers {
@@ -86,20 +88,28 @@ header {
 
 .call_to_action {
 	display: grid;
-	grid-template-columns: 100px, 100px, 100px;
+	grid-template-columns: 800px;
 	grid-template-rows: 1fr;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .cta_copy {
-	grid-column-start: 1;
-	grid-column-end: 2;
+	
+
 }
 
 .cta_calendly {
 	grid-column-start: 2;
 	grid-column-end: 3;
+	place-self: center;
+	size
 }
 
+.cta-book-call {
+	
+}
 
 
 
