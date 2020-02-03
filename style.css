@@ -112,12 +112,8 @@ header {
 	grid-column-start: 3;
 	grid-column-end: 4;
 	place-self: center;
-	background-color: #ffa700;
-	border-radius: 28px;
-	border: 1px solid #ed9e09;
-	cursor: pointer;
-	color: #ffffff;
-	padding: 16px 31px;
+
+	
 }
 
 .cta_calendly_link {
@@ -127,15 +123,15 @@ header {
 	background-color: #ffa700;
 	font-size: 19px;
 	font-weight: 700;
+	place-self: center;
+	border-radius: 28px;
+	border: 1px solid #cc890a;
+	cursor: pointer;
 }
 
-.call_to_action:hover {
-	background-color: #ed9e09;
-}
-
-.call_to_action:active {
-	position:relative;
-	top:1px;
+.cta_calendly_link:hover {
+	background-color: #d88d00;
+	transition: background-color 0.3s;
 }
 
 
