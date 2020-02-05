@@ -47,7 +47,7 @@ header {
 }
 
 /* ---------------------------------------------------- */
-/* Portfolio */
+/* PORTFOLIO */
 /* ---------------------------------------------------- */
 
 .portfolio {
@@ -87,8 +87,14 @@ header {
 	place-self: center;
 }
 
+.customers_eckig { border-radius: 50%; }
+
+.customers_schwarz {
+	filter: white;
+}
+
 /* ---------------------------------------------------- */
-/* Call-To-Action */
+/* CALL-TO-ACTION */
 /* ---------------------------------------------------- */
 
 .call_to_action {
@@ -112,8 +118,6 @@ header {
 	grid-column-start: 3;
 	grid-column-end: 4;
 	place-self: center;
-
-	
 }
 
 .cta_calendly_link {
@@ -134,10 +138,37 @@ header {
 	transition: background-color 0.3s;
 }
 
+/* ---------------------------------------------------- */
+/* FOOTER */
+/* ---------------------------------------------------- */
 
+footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	margin-top: 20px;
+	margin-left: 150px;
+	margin-right: 150px;	
+}
 
+footer a {
+	color: #ffff;
+	text-decoration: none;
+}
 
+.footer_impressum {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	justify-self: end;
+	margin-right: 10px;
+}
 
+.footer_datenschutz {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	justify-self: start;
+	margin-left: 10px;
+}
 
 
 
