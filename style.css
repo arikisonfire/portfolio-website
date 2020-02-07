@@ -85,12 +85,15 @@ header {
 	filter: gray;
     filter: grayscale(100%);
 	place-self: center;
+	transition: width 0.3s, filter 0.3s;
 }
 
 .customers_eckig { border-radius: 50%; }
 
-.customers_schwarz {
-	filter: white;
+.customers img:hover {
+	width: 120px;
+	filter: none;
+	transition: width 0.3s, filter 0.3s;
 }
 
 /* ---------------------------------------------------- */
@@ -131,11 +134,13 @@ header {
 	border-radius: 28px;
 	border: 1px solid #cc890a;
 	cursor: pointer;
+	transition: background-color 0.3s, font-size 0.3s;
 }
 
 .cta_calendly_link:hover {
 	background-color: #d88d00;
-	transition: background-color 0.3s;
+	font-size: 21px;
+	transition: background-color 0.3s, font-size 0.3s;
 }
 
 /* ---------------------------------------------------- */
