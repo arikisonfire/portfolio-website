@@ -182,29 +182,24 @@ footer a {
 /* The Modal (background) */
 .footer_modal {
 	display: none; /* hidden */
-	position: fixed; /* stays in place */
-	z-index: 1; /*sits on top? */
-	left: 0;
-	right: 0;
 	width: 100%;
 	height: 100%;
 	overflow: auto; /* enabled scrolling, if needed */
-	background-color: rgb(0,0,0); /* Fallback color */
+	grid-column-start: 1;
+	grid-column-end: 2;
 }
 
 /* Modal Content/Box */
 
 .footer_modal_content {
-	background-color: #fefefe;
-	margin: 15% auto; /* 15% from the top and centered */
-	padding: 20px;
 	border: 1px solid #888;
-	width: 80%; /* Could be more or less, depending on screen size */
+	text-align: center;
+	
 }
 
 /* The Close Button */
 .close {
-  color: #aaa;
+  color: #fefefe;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -212,7 +207,6 @@ footer a {
 
 .close:hover,
 .close:focus {
-  color: black;
   text-decoration: none;
   cursor: pointer;
 }

@@ -1,5 +1,5 @@
 // Get the modal
-var modal = document.getElementById ("footerModal");
+var modal = document.getElementById ("footerModalImpressum");
 
 // Get the button that opens the modal
 var btn = document.getElementById ("openFooterModal");
