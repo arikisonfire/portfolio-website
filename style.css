@@ -149,7 +149,7 @@ header {
 
 footer {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 	grid-template-rows: 1fr;
 	margin-top: 20px;
 	margin-left: 150px;
@@ -159,59 +159,46 @@ footer {
 footer a {
 	color: #ffff;
 	text-decoration: none;
-}
-
-.footer_impressum {
-	grid-column-start: 1;
-	grid-column-end: 2;
-	justify-self: end;
-	margin-right: 10px;
-}
-
-.footer_datenschutz {
-	grid-column-start: 2;
-	grid-column-end: 3;
-	justify-self: start;
-	margin-left: 10px;
-}
-
-/* ---------------------------------------------------- */
-/* FOOTER - MODALS */
-/* ---------------------------------------------------- */
-
-/* The Modal (background) */
-.footer_modal {
-	display: none; /* hidden */
-	width: 100%;
-	height: 100%;
-	overflow: auto; /* enabled scrolling, if needed */
-	grid-column-start: 1;
-	grid-column-end: 2;
-}
-
-/* Modal Content/Box */
-
-.footer_modal_content {
-	border: 1px solid #888;
+	cursor: pointer;
 	text-align: center;
-	
 }
 
-/* The Close Button */
-.close {
-  color: #fefefe;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  text-decoration: none;
-  cursor: pointer;
+footer a:hover {
+	font-size: 15px;
+	transition: font-size 0.3s;
 }
 
 
+/* ---------------------------------------------------- */
+/* IMPRESSUM DATENSCHUTZ HTML */
+/* ---------------------------------------------------- */
+
+.impressum_datenschutz {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 80px 1fr 400px;
+	margin: 20px 150px 20px 150px;
+}
+
+.button_homepage {
+	color: #ffffff;
+	padding: 16px 31px;
+	text-decoration: none;
+	background-color: #ffa700;
+	font-size: 19px;
+	font-weight: 700;
+	place-self: center;
+	border-radius: 28px;
+	border: 1px solid #cc890a;
+	cursor: pointer;
+	transition: background-color 0.3s, font-size 0.3s;
+}
+
+.button_homepage:hover {
+	background-color: #d88d00;
+	font-size: 21px;
+	transition: background-color 0.3s, font-size 0.3s;
+}
 
 
 
