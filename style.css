@@ -15,8 +15,8 @@ body {
 	color: #ffffff;
 	font-family: 'Muli', sans-serif; 
 	font-size: small;
-	max-width: 1200px;
-	margin-left: auto;
+	display: grid;
+	place-items: center;
 }  
 
 /* ---------------------------------------------------- */

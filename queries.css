@@ -1,0 +1,15 @@
+/* css will apply all styles to screens with a width from 1024 to 1200, big tablets (widths smaller than the 1140px row) */
+
+@media only screen and (max-width: 1200px) { 
+	
+	header { grid-template-columns: 1024px; }
+	
+	.portfolio { grid-template-columns: 500px 10px 500px; }
+	
+	.call_to_action { grid-template-columns: 500px 10px 500px; }
+	
+	.cta_copy { font-size: 13px; }
+	
+	
+
+}
