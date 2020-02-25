@@ -144,6 +144,7 @@ footer {
 	grid-template-columns: 1100px;
 	grid-template-rows: 1fr;
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 footer a {
