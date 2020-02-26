@@ -6,6 +6,7 @@
 	/** all margins and paddings gone **/
 	margin: 0;
 	padding: 0;
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	background-color: #000000;
 }
@@ -76,18 +77,27 @@ header {
 
 .customers img {
 	width: 100px;
+	-webkit-filter: gray;
 	filter: gray;
+    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 	place-self: center;
+	-webkit-transition: width 0.3s, -webkit-filter 0.3s;
+	transition: width 0.3s, -webkit-filter 0.3s;
 	transition: width 0.3s, filter 0.3s;
+	transition: width 0.3s, filter 0.3s, -webkit-filter 0.3s;
 }
 
 .customers_eckig { border-radius: 50%; }
 
 .customers img:hover {
 	width: 120px;
+	-webkit-filter: none;
 	filter: none;
+	-webkit-transition: width 0.3s, -webkit-filter 0.3s;
+	transition: width 0.3s, -webkit-filter 0.3s;
 	transition: width 0.3s, filter 0.3s;
+	transition: width 0.3s, filter 0.3s, -webkit-filter 0.3s;
 }
 
 /* ---------------------------------------------------- */
@@ -126,12 +136,14 @@ header {
 	border-radius: 28px;
 	border: 1px solid #cc890a;
 	cursor: pointer;
+	-webkit-transition: background-color 0.3s, font-size 0.3s;
 	transition: background-color 0.3s, font-size 0.3s;
 }
 
 .cta_calendly_link:hover {
 	background-color: #d88d00;
 	font-size: 21px;
+	-webkit-transition: background-color 0.3s, font-size 0.3s;
 	transition: background-color 0.3s, font-size 0.3s;
 }
 
@@ -156,6 +168,7 @@ footer a {
 
 footer a:hover {
 	font-size: 15px;
+	-webkit-transition: font-size 0.3s;
 	transition: font-size 0.3s;
 }
 
@@ -183,12 +196,14 @@ footer a:hover {
 	border-radius: 28px;
 	border: 1px solid #cc890a;
 	cursor: pointer;
+	-webkit-transition: background-color 0.3s, font-size 0.3s;
 	transition: background-color 0.3s, font-size 0.3s;
 }
 
 .button_homepage:hover {
 	background-color: #d88d00;
 	font-size: 21px;
+	-webkit-transition: background-color 0.3s, font-size 0.3s;
 	transition: background-color 0.3s, font-size 0.3s;
 }
 

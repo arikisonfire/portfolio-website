@@ -2,6 +2,7 @@
 
 @media only screen and (max-width: 1200px) { 
 	header { grid-template-columns: 1024px; }
+	.bio { font-size: 12px; }
 	.portfolio { grid-template-columns: 500px 10px 500px; }
 	.call_to_action { grid-template-columns: 500px 10px 500px; }
 	.cta_copy { font-size: 13px; }
@@ -13,11 +14,6 @@
 
 @media only screen and (max-width: 895px) {
 	.cta_calendly_link {
-		font-size: 2px;
-		width: auto;
+		
 	}	
-	
-	.cta_calendly_link:hover {
-	font-size: 10px;
-	}
 }
