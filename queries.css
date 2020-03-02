@@ -10,6 +10,7 @@
 	body { width: 100%; }
 }
 
-@media only screen and (max-width: 759px) {
-
+@media only screen and (max-width: 979px) {
+	.footer_imprint {
+		justify-self: center;
 	}
