@@ -16,8 +16,8 @@ body {
 	font-family: 'Muli', sans-serif; 
 	font-size: small;
 	display: grid;
-	grid-template-columns: 200px 1fr 200px;
-	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 50px;
     height: 100vh;
 }  
 
@@ -31,7 +31,7 @@ body {
 /* ---------------------------------------------------- */
 
 header { 
-	grid-column: span 3;
+	grid-column: span 2;
 	margin: 20px;
 }
 
@@ -45,33 +45,34 @@ header {
 /* PORTFOLIO */
 /* ---------------------------------------------------- */
 
-.portfolio {
+.portfolio_photo {
 	grid-row-start: 2;
 	grid-row-end: 3;
+	place-self: center;
 }
 
 .my_photo {
 	width: 500px; 
 	grid-column-start: 1;
 	grid-column-end: 2;
-	grid-row-start: 1;
-	grid-row-end: 2;
-	place-self: center;
 }
 
-.customers {
+figcaption {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.portfolio_customers {
+	grid-column-start: 2;
+	grid-column-end: 3;
 	display: grid; 
-	grid-column-start: 3;
-	grid-column-end: 4;
-	grid-row-start: 1;
-	grid-row-end: 2;
 	grid-template-columns: 150px 150px 150px;
 	grid-template-rows: 150px 150px 150px;
 	grid-gap: 15px;
 	place-self: center;
 }
 
-.customers img {
+.portfolio_customers img {
 	width: 100px;
 	-webkit-filter: gray;
 	filter: gray;
@@ -86,7 +87,7 @@ header {
 
 .customers_eckig { border-radius: 50%; }
 
-.customers img:hover {
+.portfolio_customers img:hover {
 	width: 120px;
 	-webkit-filter: none;
 	filter: none;
@@ -106,7 +107,7 @@ header {
 	grid-template-columns: 500px 100px 500px;
 	grid-template-rows: 1fr;
 	**/
-	
+	grid-column: span 2;
 	margin-top: 20px;
 }
 
@@ -164,9 +165,13 @@ footer {
 	grid-template-rows: 1fr;
 	justify-items: center;
 	**/
-	
+	grid-column: span 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	place-self: center;
+	text-align: center;
 	
 }
 
@@ -185,7 +190,7 @@ footer a:hover {
 }
 
 .footer_imprint {
-	
+	margin-right: 50px;
 	/**
 	grid-column-start: 1;
 	grid-column-end: 2;
@@ -193,6 +198,7 @@ footer a:hover {
 }
 
 .footer_mail {
+	margin-left: 50px;
 	/**
 	grid-column-start: 3;
 	grid-column-end: 4;
