@@ -17,7 +17,7 @@ body {
 	font-size: small;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 50px;
+	grid-template-rows: 1fr 1fr 1fr 1fr 50px;
     height: 100vh;
 }  
 
@@ -49,6 +49,7 @@ header {
 	grid-row-start: 2;
 	grid-row-end: 3;
 	place-self: center;
+	margin-left: 120px;
 }
 
 .my_photo {
@@ -70,6 +71,7 @@ figcaption {
 	grid-template-rows: 150px 150px 150px;
 	grid-gap: 15px;
 	place-self: center;
+	margin-right: 120px;
 }
 
 .portfolio_customers img {
@@ -101,29 +103,23 @@ figcaption {
 /* CALL-TO-ACTION */
 /* ---------------------------------------------------- */
 
-.call_to_action {
-	/**
-	display: grid;
-	grid-template-columns: 500px 100px 500px;
-	grid-template-rows: 1fr;
-	**/
-	grid-column: span 2;
-	margin-top: 20px;
-}
-
 .cta_copy {
-	font-size: 14px;
-	
-	/**
+	grid-row-start: 3;
+	grid-row-end: 4;
 	grid-column-start: 1;
 	grid-column-end: 2;
+	place-self: center;
+	margin-left: 120px;
 	text-align: center;
-	**/
-	
-	line-height: 1.5;
 }
 
 .cta_calendly {
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	place-self: center;
+	margin-right: 120px;
 	/**
 	grid-column-start: 3;
 	grid-column-end: 4;
@@ -138,12 +134,13 @@ figcaption {
 	background-color: #ffa700;
 	font-size: 19px;
 	font-weight: 700;
-	place-self: center;
+	
 	border-radius: 28px;
 	border: 1px solid #cc890a;
 	cursor: pointer;
 	-webkit-transition: background-color 0.3s, font-size 0.3s;
 	transition: background-color 0.3s, font-size 0.3s;
+	
 }
 
 .cta_calendly_link_button:hover {
@@ -166,8 +163,8 @@ footer {
 	justify-items: center;
 	**/
 	grid-column: span 2;
-	grid-row-start: 3;
-	grid-row-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 5;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	place-self: center;
@@ -183,7 +180,7 @@ footer a {
 	display: inline-block;
 }
 
-footer a:hover {
+footer:hover {
 	font-size: 15px;
 	-webkit-transition: font-size 0.3s;
 	transition: font-size 0.3s;
@@ -191,18 +188,14 @@ footer a:hover {
 
 .footer_imprint {
 	margin-right: 50px;
-	/**
 	grid-column-start: 1;
 	grid-column-end: 2;
-	**/
 }
 
 .footer_mail {
 	margin-left: 50px;
-	/**
-	grid-column-start: 3;
-	grid-column-end: 4;
-	**/
+	grid-column-start: 2;
+	grid-column-end: 3;
 }
 
 /* ---------------------------------------------------- */
