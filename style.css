@@ -58,11 +58,6 @@ header {
 	grid-column-end: 2;
 }
 
-figcaption {
-	margin-top: 50px;
-	text-align: center;
-}
-
 .portfolio_customers {
 	grid-column-start: 2;
 	grid-column-end: 3;
@@ -111,6 +106,10 @@ figcaption {
 	place-self: center;
 	margin-left: 120px;
 	text-align: center;
+	font-size: 14px;
+	line-height: 1.4;
+	margin-top: 20px;
+	
 }
 
 .cta_calendly {
@@ -120,6 +119,7 @@ figcaption {
 	grid-column-end: 3;
 	place-self: center;
 	margin-right: 120px;
+	margin-top: 20px;
 	/**
 	grid-column-start: 3;
 	grid-column-end: 4;
@@ -154,48 +154,30 @@ figcaption {
 /* FOOTER */
 /* ---------------------------------------------------- */
 
-footer {
-	
-	/**
-	display: grid;
-	grid-template-columns: 500px 100px 500px;
-	grid-template-rows: 1fr;
-	justify-items: center;
-	**/
-	grid-column: span 2;
+.footer_imprint, .footer_mail { 
 	grid-row-start: 4;
 	grid-row-end: 5;
 	margin-top: 20px;
-	margin-bottom: 20px;
-	place-self: center;
-	text-align: center;
-	
-}
-
-footer a {
+	margin-bottom: 30px;
+	text-align: center;	
 	color: #ffff;
 	text-decoration: none;
 	cursor: pointer;
-	text-align: center;
-	display: inline-block;
 }
 
-footer:hover {
+.footer_mail:hover,
+.footer_imprint:hover {
 	font-size: 15px;
 	-webkit-transition: font-size 0.3s;
 	transition: font-size 0.3s;
 }
 
 .footer_imprint {
-	margin-right: 50px;
-	grid-column-start: 1;
-	grid-column-end: 2;
+	margin-left: 120px;
 }
 
 .footer_mail {
-	margin-left: 50px;
-	grid-column-start: 2;
-	grid-column-end: 3;
+	margin-right: 120px;
 }
 
 /* ---------------------------------------------------- */
