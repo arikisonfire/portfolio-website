@@ -180,62 +180,6 @@ header {
 	margin-right: 120px;
 }
 
-/* ---------------------------------------------------- */
-/* IMPRESSUM DATENSCHUTZ HTML */
-/* ---------------------------------------------------- */
-
-.impressum_datenschutz {
-	display: grid;
-	grid-template-columns: 50px 1000px 50px;
-	grid-template-rows: 100px 1fr 100px;
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-.impressum_datenschutz_content {
-	grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 2;
-	grid-row-end: 3;
-}
-
-.button_homepage_top {
-	grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 1;
-	grid-row-end: 2;
-	margin-bottom: 20px;
-}
-
-.button_homepage_bottom {
-	grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 3;
-	grid-row-end: 4;
-	margin-top: 20px;
-}
-
-.button_homepage_top, .button_homepage_bottom {
-	color: #ffffff;
-	padding: 16px 31px;
-	text-decoration: none;
-	background-color: #ffa700;
-	font-size: 19px;
-	font-weight: 700;
-	place-self: center;
-	border-radius: 28px;
-	border: 1px solid #cc890a;
-	cursor: pointer;
-	-webkit-transition: background-color 0.3s, font-size 0.3s;
-	transition: background-color 0.3s, font-size 0.3s;
-}
-
-.button_homepage_top:hover, .button_homepage_bottom:hover {
-	background-color: #d88d00;
-	font-size: 21px;
-	-webkit-transition: background-color 0.3s, font-size 0.3s;
-	transition: background-color 0.3s, font-size 0.3s;
-}
 
 
 

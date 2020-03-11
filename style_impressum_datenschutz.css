@@ -1,0 +1,71 @@
+/* ---------------------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------------------- */
+
+* {
+	/** all margins and paddings gone **/
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #000000;
+}
+
+body {
+	color: #ffffff;
+	font-family: 'Muli', sans-serif; 
+	font-size: small;
+	display: grid;
+	grid-template-columns: 150px 1fr 150px;
+	grid-template-rows: 50px 1fr 50px;
+    height: 100vh;
+}
+/* ---------------------------------------------------- */
+/* IMPRESSUM DATENSCHUTZ HTML */
+/* ---------------------------------------------------- */
+
+.impressum_datenschutz {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	justify-content: center;
+}
+
+.impressum_datenschutz_content {
+ 	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	text-align: center;
+}
+
+.button_homepage_top {
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.button_homepage_bottom {
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+.button_homepage_top, .button_homepage_bottom {
+	color: #ffffff;
+	padding: 16px 31px;
+	text-decoration: none;
+	background-color: #ffa700;
+	font-size: 19px;
+	font-weight: 700;
+	place-self: center;
+	border-radius: 28px;
+	border: 1px solid #cc890a;
+	cursor: pointer;
+	-webkit-transition: background-color 0.3s, font-size 0.3s;
+	transition: background-color 0.3s, font-size 0.3s;
+}
+
+.button_homepage_top:hover, .button_homepage_bottom:hover {
+	background-color: #d88d00;
+	font-size: 21px;
+	-webkit-transition: background-color 0.3s, font-size 0.3s;
+	transition: background-color 0.3s, font-size 0.3s;
+}
