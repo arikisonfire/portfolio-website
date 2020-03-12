@@ -16,36 +16,36 @@ body {
 	font-family: 'Muli', sans-serif; 
 	font-size: small;
 	display: grid;
-	grid-template-columns: 150px 1fr 150px;
-	grid-template-rows: 50px 1fr 50px;
-    height: 100vh;
+	grid-template-rows: 80px 1fr 80px;
 }
 /* ---------------------------------------------------- */
 /* IMPRESSUM DATENSCHUTZ HTML */
 /* ---------------------------------------------------- */
 
 .impressum_datenschutz {
-	margin-top: 40px;
-	margin-bottom: 40px;
-	justify-content: center;
-}
-
-.impressum_datenschutz_content {
- 	grid-row-start: 2;
+	margin: 40px 120px 40px 120px;
+	grid-row-start: 2;
 	grid-row-end: 3;
 	grid-column-start: 2;
 	grid-column-end: 3;
-	text-align: center;
 }
 
+.impressum_datenschutz_content { text-align: justify; }
+
 .button_homepage_top {
+	margin-top: 40px;
 	grid-row-start: 1;
 	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 3;
 }
 
 .button_homepage_bottom {
+	margin-bottom: 40px;
 	grid-row-start: 3;
 	grid-row-end: 4;
+	grid-column-start: 2;
+	grid-column-end: 3;
 }
 
 .button_homepage_top, .button_homepage_bottom {

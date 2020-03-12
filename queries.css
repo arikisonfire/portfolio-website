@@ -1,18 +1,3 @@
-@media only screen and (max-width: 1200px) { 
-	header { grid-template-columns: 1024px; }
-	.bio { font-size: 12px; }
-	.portfolio { grid-template-columns: 500px 10px 500px; }
-	.call_to_action { grid-template-columns: 500px 10px 500px; }
-	footer { grid-template-columns: 500px 10px 500px; }
-	.cta_copy { font-size: 13px; }
-}
-
-@media only screen and (max-width: 1099px) {
+@media only screen and (max-width: 1023px) { 
 	body { width: 100%; }
-}
-
-@media only screen and (max-width: 793px) {
-	.cta_copy {
-		font-size: 5px;
-	}
 }
