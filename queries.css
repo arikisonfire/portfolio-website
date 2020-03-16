@@ -1,3 +1,11 @@
-@media only screen and (max-width: 1023px) { 
-	body { width: 100%; }
+@media only screen and (max-width: 959px) { 
+	.portfolio_photo, .portfolio_customers {
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
 }
+
+@media only screen and (max-width: 767px) { 
+	
+}
+
