@@ -1,7 +1,35 @@
 @media only screen and (max-width: 959px) { 
-	.portfolio_photo, .portfolio_customers {
-		margin-top: 100px;
-		margin-bottom: 100px;
+	body {
+		margin: 0;
+	}
+	
+	.cta_copy {
+		margin-left: 0;
+		grid-column: span 2;
+	}
+	
+	.cta_calendly {
+		grid-row-start: 4;
+		grid-row-end: 5;
+		grid-column: span 2;
+		margin-right: 0;
+	}
+	
+	.footer_mail { 
+		grid-row-start: 5;
+		grid-row-end: 6;
+		grid-column: span 2;
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+	
+	.footer_imprint { 
+		grid-row-start: 6;
+		grid-row-end: 7;
+		grid-column: span 2;
+		margin-left: 0;
+		margin-top: 0;
+		margin-bottom: 20px;
 	}
 }
 
