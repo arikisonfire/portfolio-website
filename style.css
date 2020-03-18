@@ -18,7 +18,6 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
-    height: 100vh;
 }  
 
 /* ---------------------------------------------------- */
@@ -99,6 +98,7 @@ header {
 /* ---------------------------------------------------- */
 
 .cta_copy {
+	display: block;
 	grid-row-start: 3;
 	grid-row-end: 4;
 	grid-column-start: 1;

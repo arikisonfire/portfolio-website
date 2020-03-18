@@ -1,4 +1,5 @@
 @media only screen and (max-width: 959px) { 
+	
 	body {
 		margin: 0;
 	}
@@ -6,6 +7,7 @@
 	.cta_copy {
 		margin-left: 0;
 		grid-column: span 2;
+		display: inline;
 	}
 	
 	.cta_calendly {
@@ -33,7 +35,34 @@
 	}
 }
 
-@media only screen and (max-width: 767px) { 
+@media only screen and (max-width: 849px) { 
+	
+	.portfolio_photo,
+	.portfolio_customers {
+		margin-top: 50px;
+	}
+	
+	.cta_copy {
+		margin-top: 50px;
+	}
+}
+
+@media only screen and (max-width: 767) { 
+	
+	.portfolio_photo {
+		grid-row-start: 2;
+		grid-row-end: 3;
+	
+	}
+	
+	.portfolio_customers img {
+		display: none; 
+		grid-row-start: 3;
+		grid-row-end: 4;
+		grid-column: span 2;
+	}
 	
 }
+
+
 
