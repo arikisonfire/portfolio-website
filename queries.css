@@ -33,6 +33,10 @@
 		margin-top: 0;
 		margin-bottom: 20px;
 	}
+	
+	.impressum_datenschutz {
+		margin: 40px 60px 40px 60px;
+	}
 }
 
 @media only screen and (max-width: 849px) { 
@@ -45,6 +49,7 @@
 	.cta_copy {
 		margin-top: 50px;
 	}
+	
 }
 
 @media only screen and (max-width: 767px) { 
@@ -103,6 +108,10 @@
 			grid-row-start: 7;
 			grid-row-end: 8;
 			padding: 0;
+		}
+	
+		.impressum_datenschutz {
+			margin: 40px 25px 40px 25px;
 		}
 
 	}
