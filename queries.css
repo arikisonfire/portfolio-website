@@ -70,58 +70,55 @@
 	}
 	
 	.my_photo {
-		width: 350px;
+		width: 400px;
 	}
 	
 	
 	.portfolio_customers {
 		grid-column: span 2;
-		grid-gap: 5px;
+		grid-gap: 10px;
 		margin: 0;
 		grid-row-start: 3;
 		grid-row-end: 4;
-		grid-template-columns: 100px 100px 100px;
-		grid-template-rows: 100px 100px 100px;
 	}
 	
 
-		.portfolio_customers img {  
-			width: 70px;
+	.portfolio_customers img {  
+		width: 80px;
 	}
 
-		.portfolio_customers img:hover {
-		width: 90px;
-	 }
-	
-		.cta_copy {
-			grid-row-start: 4;
-			grid-row-end: 5;
-			padding: 0;
-		}
-
-		.cta_calendly {
-			grid-row-start: 5;
-			grid-row-end: 6;
-			padding: 0;
-		}
-
-		.footer_mail { 
-			grid-row-start: 6;
-			grid-row-end: 7;
-			padding: 0;
-		}
-
-		.footer_imprint { 
-			grid-row-start: 7;
-			grid-row-end: 8;
-			padding: 0;
-		}
-	
-		.impressum_datenschutz {
-			margin: 40px 25px 40px 25px;
-		}
-
+	.portfolio_customers img:hover {
+		width: 100px;
 	}
+	
+	.cta_copy {
+		grid-row-start: 4;
+		grid-row-end: 5;
+		padding: 0;
+	}
+
+	.cta_calendly {
+		grid-row-start: 5;
+		grid-row-end: 6;
+		padding: 0;
+	}
+
+	.footer_mail { 
+		grid-row-start: 6;
+		grid-row-end: 7;
+		padding: 0;
+	}
+
+	.footer_imprint { 
+		grid-row-start: 7;
+		grid-row-end: 8;
+		padding: 0;
+	}
+	
+	.impressum_datenschutz {
+		margin: 40px 25px 40px 25px;
+	}
+}
 
 
 
