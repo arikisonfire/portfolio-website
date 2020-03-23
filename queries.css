@@ -70,7 +70,7 @@
 	}
 	
 	.my_photo {
-		width: 400px;
+		width: 350px;
 	}
 	
 	
@@ -80,12 +80,19 @@
 		margin: 0;
 		grid-row-start: 3;
 		grid-row-end: 4;
+		grid-template-columns: 100px 100px 100px;
+		grid-template-rows: 100px 100px 100px;
 	}
 	
 
-	.portfolio_customers img {  
-		width: 80px;
+		.portfolio_customers img {  
+			width: 70px;
 	}
+
+		.portfolio_customers img:hover {
+		width: 90px;
+	 }
+	
 		.cta_copy {
 			grid-row-start: 4;
 			grid-row-end: 5;
