@@ -1,8 +1,6 @@
 @media only screen and (max-width: 959px) { 
 	
-	body {
-		margin: 0;
-	}
+	body { margin: 0; }
 	
 	.cta_copy {
 		margin-left: 0;
@@ -34,9 +32,8 @@
 		margin-bottom: 20px;
 	}
 	
-	.impressum_datenschutz {
-		margin: 40px 60px 40px 60px;
-	}
+	.impressum_datenschutz { margin: 40px 60px 40px 60px; }
+	
 }
 
 @media only screen and (max-width: 849px) { 
@@ -46,9 +43,7 @@
 		margin-top: 50px;
 	}
 	
-	.cta_copy {
-		margin-top: 50px;
-	}
+	.cta_copy { margin-top: 50px; }	
 	
 }
 
@@ -69,10 +64,7 @@
 		grid-column: span 2;
 	}
 	
-	.my_photo {
-		width: 400px;
-	}
-	
+	.my_photo { width: 400px; }
 	
 	.portfolio_customers {
 		grid-column: span 2;
@@ -83,13 +75,9 @@
 	}
 	
 
-	.portfolio_customers img {  
-		width: 80px;
-	}
+	.portfolio_customers img { width: 80px; }
 
-	.portfolio_customers img:hover {
-		width: 100px;
-	}
+	.portfolio_customers img:hover { width: 100px; }
 	
 	.cta_copy {
 		grid-row-start: 4;
@@ -115,10 +103,30 @@
 		padding: 0;
 	}
 	
-	.impressum_datenschutz {
-		margin: 40px 25px 40px 25px;
-	}
+	.impressum_datenschutz { margin: 40px 25px 40px 25px; }
+	
 }
 
+@media only screen and (max-width: 480px) { 
 
+	.bio { font-size: 10px; }
+	
+	.bio_copy { text-align: justify; }
+	
+	.my_photo { width: 330px; }
+	
+	.portfolio_customers {
+		grid-gap: 20px;
+		grid-template-columns: 80px 80px 80px;
+		grid-template-rows: 80px 80px 80px;
+	}
+	
+	.portfolio_customers img { width: 60px; }
 
+	.portfolio_customers img:hover { width: 90px; }
+	
+	.cta_copy { font-size: 10px; }
+	
+	.footer_imprint { margin-bottom: 20px; }
+	
+}
